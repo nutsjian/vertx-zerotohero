@@ -1,0 +1,29 @@
+server:
+  port: 9999
+spring:
+  datasource:
+    name: DATASOURCE
+    url: jdbc:mysql://localhost:3306/vertx-zerotohero?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    max_pool_size: 32
+    initial_pool_size: 4
+    min_pool_size: 4
+    max_statements: 32
+    max_statements_per_connection: 256
+    max_idle_time: 64
+
+#    type: com.zaxxer.hikari.HikariDataSource
+#    hikari:
+#      pool-name: HikariCP
+#      read-only: false
+#      connection-timeout: 60000
+#      idle-timeout: 60000
+#      validation-timeout: 3000
+#      max-lifetime: 60000
+#      login-timeout: 5
+#      maximum-pool-size: 30
+#      minimum-idle: 5
+#      auto-commit: true
+#      connection-test-query: "select 1"

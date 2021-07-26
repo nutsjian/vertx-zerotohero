@@ -8,6 +8,8 @@
     <modules>
       <module>vertx-service-discovery-server</module>
     <module>vertx-core-examples</module>
+    <module>vertx-spring-web</module>
+    <module>vertx-kotlin-quickstart</module>
   </modules>
 
     <properties>
@@ -85,6 +87,11 @@
             <dependency>
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-redis-client</artifactId>
+                <version>4.1.2</version>
+            </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-mysql-postgresql-client</artifactId>
                 <version>4.1.2</version>
             </dependency>
             <dependency>

@@ -1,3 +1,7 @@
 mvn archetype:generate -DgroupId=me.nutsjian -DartifactId=vertx-service-discovery-server -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DarchetypeCatalog=local -Dversion=0.1.0 -X
 
 mvn archetype:generate -DgroupId=me.nutsjian -DartifactId=vertx-core-examples -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DarchetypeCatalog=local -Dversion=0.1.0 -X
+
+mvn archetype:generate -DgroupId=me.nutsjian -DartifactId=vertx-spring-web -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DarchetypeCatalog=local -Dversion=0.1.0 -X
+
+mvn archetype:generate -DgroupId=me.nutsjian -DartifactId=vertx-kotlin-quickstart -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DarchetypeCatalog=local -Dversion=0.1.0 -X
